@@ -1,0 +1,12 @@
+Experiment 'pythonRecommendTensorboardExt' is active
+Experiment 'pythonREPLSmartSend' is active
+Experiment 'pythonTerminalEnvVarActivationcf' is active
+Experiment 'pythonTestAdapter' is active
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+Python interpreter path: /bin/python
+Starting Jedi language server for workspace.
+> conda info --json
+> /bin/python ~/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py ~/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py
+> /bin/python3 ~/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py ~/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py
+> /bin/python ~/extensions/ms-python.python-2022.16.1-universal/pythonFiles/normalizeSelection.py

@@ -1,0 +1,20 @@
+code-server (1.71.0, blue-mechanic-azrmv.pwskills.app, server-distro)
+Jupyter Extension Version: 2022.8.1002460559.
+Python Extension Version: 2022.16.1.
+Workspace folder /config/workspace
+info 14:53:5.727: ZMQ install verified.
+info 14:53:6.393: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 14:53:6.437: Process Execution: > jupyter notebook --version
+> jupyter notebook --version
+info 14:53:6.459: Process Execution: > jupyter lab --version
+> jupyter lab --version
+info 14:53:6.794: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+info 14:53:9.490: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 14:56:47.492: Shutting down notebooks for eb6791f0-27ba-4a76-9d3b-c816ea466ec2
+info 14:56:47.492: Disposing HostJupyterExecution f6b5764e-650a-4b7b-bbe9-ea3cecae4178
+info 14:56:47.492: Disposing super HostJupyterExecution f6b5764e-650a-4b7b-bbe9-ea3cecae4178
+info 14:56:47.492: Disposing HostJupyterExecution f6b5764e-650a-4b7b-bbe9-ea3cecae4178
+info 14:56:47.492: Finished disposing HostJupyterExecution  f6b5764e-650a-4b7b-bbe9-ea3cecae4178
+info 14:56:47.497: Cleaning up server cache f6b5764e-650a-4b7b-bbe9-ea3cecae4178
+info 14:56:47.498: Finished disposing HostJupyterExecution  f6b5764e-650a-4b7b-bbe9-ea3cecae4178

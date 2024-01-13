@@ -1,0 +1,45 @@
+[2024-01-13 14:56:56.891] [exthost] [info] Extension host with pid 411 started
+[2024-01-13 14:56:56.907] [exthost] [info] Lock '/config/data/User/workspaceStorage/3fe5c27f/vscode.lock': Lock acquired.
+[2024-01-13 14:56:57.657] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2024-01-13 14:56:57.665] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2024-01-13 14:56:57.670] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2024-01-13 14:56:57.699] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+[2024-01-13 14:56:58.734] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2024-01-13 14:56:58.835] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2024-01-13 14:56:59.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2024-01-13 14:56:59.480] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2024-01-13 14:56:59.486] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+[2024-01-13 14:56:59.547] [exthost] [info] Eager extensions activated
+[2024-01-13 14:57:13.863] [exthost] [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:django-html'
+[2024-01-13 14:58:47.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onWebviewPanel:markdown.preview'
+[2024-01-13 14:58:47.678] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2024-01-13 14:58:47.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2024-01-13 15:00:47.720] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2024-01-13 15:00:49.051] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2024-01-13 15:08:15.412] [exthost] [error] [ms-python.python] provider FAILED
+[2024-01-13 15:08:15.412] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 4 ('\n').
+	at /config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2024-01-13 15:08:49.019] [exthost] [error] [ms-python.python] provider FAILED
+[2024-01-13 15:08:49.020] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 5 ('\n').
+	at /config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2024-01-13 15:09:26.925] [exthost] [error] [ms-python.python] provider FAILED
+[2024-01-13 15:09:26.925] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 5 ('\n').
+	at /config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2024-01-13 15:10:06.274] [exthost] [error] [ms-python.python] provider FAILED
+[2024-01-13 15:10:06.275] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 10 ('\n').
+	at /config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/config/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2024-01-13 15:35:00.027] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2024-01-13 15:35:00.027] [exthost] [info] Lock '/config/data/User/workspaceStorage/3fe5c27f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2024-01-13 15:35:00.078] [exthost] [info] Extension host with pid 411 exiting with code 0

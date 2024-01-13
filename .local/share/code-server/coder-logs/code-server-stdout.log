@@ -1,0 +1,84 @@
+[2024-01-13T09:22:08.088Z] info  code-server 4.7.0 7f108c61ab670ccaae4cfde5de2909c003db1ce8
+[2024-01-13T09:22:08.089Z] info  Using user-data-dir ~/data
+[2024-01-13T09:22:08.107Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-01-13T09:22:08.108Z] info  HTTP server listening on http://0.0.0.0/ 
+[2024-01-13T09:22:08.108Z] info    - Authentication is enabled
+[2024-01-13T09:22:08.108Z] info      - Using password from $PASSWORD
+[2024-01-13T09:22:08.108Z] info    - Not serving HTTPS 
+[14:52:20] Extension host agent started.
+[14:52:24] [172.18.0.2][c3246a27][ManagementConnection] New connection established.
+[14:52:26] [172.18.0.2][90a57c3f][ExtensionHostConnection] New connection established.
+[14:52:26] [172.18.0.2][90a57c3f][ExtensionHostConnection] <229> Launched Extension Host Process.
+[14:52:40] [172.18.0.2][c3246a27][ManagementConnection] The client has reconnected.
+[14:52:40] Getting Manifest... wholroyd.jinja
+[14:52:40] Getting Manifest... batisteo.vscode-django
+[14:52:40] Getting Manifest... formulahendry.code-runner
+[14:52:41] Getting Manifest... ms-python.python
+[14:52:41] Installing extension: formulahendry.code-runner
+[14:52:41] Installing extension: wholroyd.jinja
+[14:52:41] Installing extension: batisteo.vscode-django
+[14:52:42] Installing extension: ms-python.python
+[14:52:43] Downloaded extension: wholroyd.jinja /config/data/CachedExtensionVSIXs/wholroyd.jinja-0.0.8-universal
+[14:52:43] Extracted extension to /config/extensions/.cb8ddcd2-0545-4b19-ba2b-50008a6d6376: wholroyd.jinja
+[14:52:43] Renamed to /config/extensions/wholroyd.jinja-0.0.8-universal
+[14:52:43] Extracting completed. wholroyd.jinja
+[14:52:44] Extension installed successfully: wholroyd.jinja
+[14:52:44] Getting Manifest... ms-toolsai.jupyter
+[14:52:44] Downloaded extension: batisteo.vscode-django /config/data/CachedExtensionVSIXs/batisteo.vscode-django-1.8.0-universal
+[14:52:44] Downloaded extension: formulahendry.code-runner /config/data/CachedExtensionVSIXs/formulahendry.code-runner-0.12.1-universal
+[14:52:44] Extracted extension to /config/extensions/.7ab4cce0-f880-4f39-b527-04d9cbc41a95: batisteo.vscode-django
+[14:52:44] Renamed to /config/extensions/batisteo.vscode-django-1.8.0-universal
+[14:52:44] Extracting completed. batisteo.vscode-django
+[14:52:44] Extension installed successfully: batisteo.vscode-django
+[14:52:45] Extracted extension to /config/extensions/.41113a1b-0608-4b1a-a2dd-9c3281fbe64b: formulahendry.code-runner
+[14:52:45] Renamed to /config/extensions/formulahendry.code-runner-0.12.1-universal
+[14:52:45] Extracting completed. formulahendry.code-runner
+[14:52:45] Extension installed successfully: formulahendry.code-runner
+[14:52:47] Getting Manifest... ms-toolsai.jupyter-renderers
+[14:52:49] Getting Manifest... ms-toolsai.jupyter-keymap
+[14:52:50] Installing extension: ms-toolsai.jupyter
+[14:52:50] Installing extension: ms-toolsai.jupyter-renderers
+[14:52:50] Installing extension: ms-toolsai.jupyter-keymap
+[14:52:52] Downloaded extension: ms-toolsai.jupyter-keymap /config/data/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.1.0-universal
+[14:52:52] Extracted extension to /config/extensions/.a41b9eaa-ecc8-4313-bca9-8c418709b868: ms-toolsai.jupyter-keymap
+[14:52:52] Renamed to /config/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+[14:52:52] Extracting completed. ms-toolsai.jupyter-keymap
+[14:52:53] Downloaded extension: ms-toolsai.jupyter-renderers /config/data/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.9-universal
+[14:52:54] Extracted extension to /config/extensions/.b30fce64-321e-443f-99ab-58b78d680b9d: ms-toolsai.jupyter-renderers
+[14:52:54] Renamed to /config/extensions/ms-toolsai.jupyter-renderers-1.0.9-universal
+[14:52:54] Extracting completed. ms-toolsai.jupyter-renderers
+[14:52:54] Downloaded extension: ms-toolsai.jupyter /config/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.8.1002460559-universal
+[14:52:55] Extracted extension to /config/extensions/.d1c3ab6b-25dc-4e42-ab86-7e716acd166c: ms-toolsai.jupyter
+[14:52:55] Renamed to /config/extensions/ms-toolsai.jupyter-2022.8.1002460559-universal
+[14:52:55] Extracting completed. ms-toolsai.jupyter
+[14:53:00] Downloaded extension: ms-python.python /config/data/CachedExtensionVSIXs/ms-python.python-2022.16.1-universal
+[14:53:02] Extracted extension to /config/extensions/.0242683a-aab8-4317-a67e-a9221241a5c6: ms-python.python
+[14:53:02] Renamed to /config/extensions/ms-python.python-2022.16.1-universal
+[14:53:02] Extracting completed. ms-python.python
+[14:53:02] Extension installed successfully: ms-toolsai.jupyter-keymap
+[14:53:02] Extension installed successfully: ms-toolsai.jupyter-renderers
+[14:53:02] Extension installed successfully: ms-toolsai.jupyter
+[14:53:02] Extension installed successfully: ms-python.python
+[14:56:47] [172.18.0.2][c3246a27][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:56:47] [172.18.0.2][90a57c3f][ExtensionHostConnection] <229> Extension Host Process exited with code: 0, signal: null.
+[14:56:49] [172.18.0.2][61e290d8][ManagementConnection] New connection established.
+[14:56:50] [172.18.0.2][61e290d8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:56:51] [172.18.0.2][f69d48a7][ManagementConnection] New connection established.
+[14:56:52] [172.18.0.2][23291290][ExtensionHostConnection] New connection established.
+[14:56:52] [172.18.0.2][23291290][ExtensionHostConnection] <411> Launched Extension Host Process.
+[14:56:59] [172.18.0.2][f69d48a7][ManagementConnection] The client has reconnected.
+[15:14:09] [172.18.0.2][73912848][ManagementConnection] New connection established.
+[15:14:11] [172.18.0.2][3c73cc48][ExtensionHostConnection] New connection established.
+[15:14:11] [172.18.0.2][3c73cc48][ExtensionHostConnection] <1071> Launched Extension Host Process.
+[15:14:12] [172.18.0.2][73912848][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:14:17] [172.18.0.2][ede67dc3][ManagementConnection] New connection established.
+[15:14:19] [172.18.0.2][ede67dc3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:35:00] [172.18.0.2][f69d48a7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:35:00] [172.18.0.2][23291290][ExtensionHostConnection] <411> Extension Host Process exited with code: 0, signal: null.
+[15:35:17] [172.18.0.2][cc6d909a][ManagementConnection] New connection established.
+[15:35:19] [172.18.0.2][27b842b7][ExtensionHostConnection] New connection established.
+[15:35:19] [172.18.0.2][27b842b7][ExtensionHostConnection] <2234> Launched Extension Host Process.
+[15:35:30] [172.18.0.2][cc6d909a][ManagementConnection] The client has reconnected.
+[15:35:35] [172.18.0.2][cc6d909a][ManagementConnection] The client has reconnected.
+[15:36:01] [172.18.0.2][cc6d909a][ManagementConnection] The client has reconnected.
+[15:40:17] [172.18.0.2][3c73cc48][ExtensionHostConnection] <1071> Extension Host Process exited with code: 0, signal: null.

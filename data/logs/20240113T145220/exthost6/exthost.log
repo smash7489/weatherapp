@@ -1,0 +1,15 @@
+[2024-01-13 15:35:30.121] [exthost] [info] Extension host with pid 2234 started
+[2024-01-13 15:35:30.137] [exthost] [info] Lock '/config/data/User/workspaceStorage/3fe5c27f/vscode.lock': Lock acquired.
+[2024-01-13 15:35:31.305] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2024-01-13 15:35:31.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2024-01-13 15:35:31.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2024-01-13 15:35:31.612] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2024-01-13 15:35:31.718] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2024-01-13 15:35:31.949] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2024-01-13 15:35:31.971] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2024-01-13 15:35:31.977] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+[2024-01-13 15:35:32.001] [exthost] [info] Eager extensions activated
+[2024-01-13 15:43:49.372] [exthost] [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+[2024-01-13 15:43:49.384] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2024-01-13 15:43:49.813] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2024-01-13 15:43:51.210] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter

@@ -1,0 +1,88 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "5"
+WARNING:pygls.protocol:Cancel notification for unknown message id "63"
+ERROR:pygls.protocol:Failed to handle request 111 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///config/workspace/weather_app/app.py') position=3:0
+Traceback (most recent call last):
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover
+    jedi_script.help(
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 4 ('\n').
+[Error - 3:08:15 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 4 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover\n    jedi_script.help(\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+ERROR:pygls.protocol:Failed to handle request 135 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///config/workspace/weather_app/app.py') position=4:0
+Traceback (most recent call last):
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover
+    jedi_script.help(
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 5 ('\n').
+[Error - 3:08:49 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 5 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover\n    jedi_script.help(\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+ERROR:pygls.protocol:Failed to handle request 196 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///config/workspace/weather_app/app.py') position=4:0
+Traceback (most recent call last):
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover
+    jedi_script.help(
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 5 ('\n').
+[Error - 3:09:26 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 5 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover\n    jedi_script.help(\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "196"
+WARNING:pygls.protocol:Cancel notification for unknown message id "206"
+WARNING:pygls.protocol:Cancel notification for unknown message id "222"
+ERROR:pygls.protocol:Failed to handle request 230 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///config/workspace/weather_app/app.py') position=9:0
+Traceback (most recent call last):
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover
+    jedi_script.help(
+  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 10 ('\n').
+[Error - 3:10:06 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 10 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover\n    jedi_script.help(\n', '  File "/config/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "234"
+WARNING:pygls.protocol:Cancel notification for unknown message id "387"
+WARNING:pygls.protocol:Cancel notification for unknown message id "397"
+WARNING:pygls.protocol:Cancel notification for unknown message id "400"
+WARNING:pygls.protocol:Cancel notification for unknown message id "440"
+WARNING:pygls.protocol:Cancel notification for unknown message id "587"
+WARNING:pygls.protocol:Cancel notification for unknown message id "588"
+WARNING:pygls.protocol:Cancel notification for unknown message id "596"
+WARNING:pygls.protocol:Cancel notification for unknown message id "733"
+WARNING:pygls.protocol:Cancel notification for unknown message id "742"
+WARNING:pygls.protocol:Cancel notification for unknown message id "844"
+WARNING:pygls.protocol:Cancel notification for unknown message id "897"
+WARNING:pygls.protocol:Cancel notification for unknown message id "914"
+WARNING:pygls.protocol:Cancel notification for unknown message id "947"
+WARNING:pygls.protocol:Cancel notification for unknown message id "955"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1117"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1118"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1119"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1121"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1120"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1122"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1128"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1167"

@@ -1,0 +1,23 @@
+[2024-01-13T10:05:31.873Z] Log level: Info
+[2024-01-13T10:05:31.880Z] [info] Validating found git in: git
+[2024-01-13T10:05:31.924Z] [info] Using git 2.25.1 from git
+[2024-01-13T10:05:32.006Z] > git rev-parse --show-toplevel [61ms]
+[2024-01-13T10:05:32.020Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2024-01-13T10:05:32.029Z] [info] Open repository: /config/workspace
+[2024-01-13T10:05:32.043Z] > git status -z -uall [2ms]
+[2024-01-13T10:05:32.052Z] > git symbolic-ref --short HEAD [2ms]
+[2024-01-13T10:05:32.061Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2024-01-13T10:05:32.077Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2024-01-13T10:05:32.078Z] > git remote --verbose [3ms]
+[2024-01-13T10:05:32.093Z] > git config --get commit.template [1ms]
+[2024-01-13T10:05:32.104Z] > git status -z -uall [2ms]
+[2024-01-13T10:05:32.113Z] > git symbolic-ref --short HEAD [2ms]
+[2024-01-13T10:05:32.122Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2024-01-13T10:05:32.139Z] > git remote --verbose [6ms]
+[2024-01-13T10:05:32.139Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2024-01-13T10:05:32.150Z] > git config --get commit.template [2ms]
+[2024-01-13T10:05:34.397Z] > git check-ignore -v -z --stdin [1ms]
+[2024-01-13T10:05:34.562Z] > git show --textconv :weather_app/requirements.txt [9ms]
+[2024-01-13T10:05:34.563Z] > git ls-files --stage -- /config/workspace/weather_app/requirements.txt [2ms]
+[2024-01-13T10:13:51.342Z] > git show --textconv :weather_app/app.py [25ms]
+[2024-01-13T10:13:51.342Z] > git ls-files --stage -- /config/workspace/weather_app/app.py [3ms]
